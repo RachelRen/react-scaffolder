@@ -1,0 +1,62 @@
+@import "../../assets/sass/var.scss";
+.g-nav-container {
+	position: relative;
+	background: #fff;
+	height: 50px;
+	line-height: 50px;
+	line-height: 50px;
+	box-shadow: 0 4px 6px 0 rgba(0,0,0,0.06);
+	margin-bottom: 10px;
+}
+
+.g-menu-container {
+	float: left;
+	width: 162px;
+	background: #fff;
+	box-shadow: 0 2px 8px 0 rgba(230,234,239,0.50);
+	border-radius: 4px;
+	min-height: 200px;
+	padding-top: 20px;
+
+	.menu-list {
+		
+	}
+
+	.menu-item {
+		margin-bottom: 10px;
+		padding-left: 10px;
+	}
+	.menu-item-sub {
+		font-size: 16px;
+		font-weight: 600;
+	}
+	.menu-item-link {
+		display: inline-block;
+		height: 46px;
+		line-height: 46px;
+		width: 100%;
+		
+		font-size: 16px;
+		
+		
+
+	}
+	.menu-item--sub-link-active {
+		color: #e6231f;
+	}
+	.menu-item-link-active {
+		background: #e6231f;
+		color: #fff;
+	}
+	.menu-item-first {
+		
+	}
+
+	.menu-sub-list{
+		margin-left: 10px;
+		.menu-sub-list-item {
+			line-height: 16px;
+		}
+	}
+}
+
